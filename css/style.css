@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(33, 155, 216);
+  border-radius: 10px 0 0 10px;
+  width: 100%;
+  outline-color: rgb(12, 122, 177);
+}
+
+button {
+  font-size: 16px;
+  background-color: rgb(33, 155, 216);
+  color: #fff;
+  border: 1px solid rgb(33, 155, 216);
+  border-radius: 0 10px 10px 0;
+  width: 100px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.repos__field {
+  padding: 0;
+}
+
+.repo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(33, 155, 216);
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.repo a {
+  text-decoration: none;
+  color: rgb(33, 155, 216);
+  margin-bottom: 10px;
+}
+
+.repo a:hover {
+  text-decoration: underline;
+}
+
+.repo__description {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: rgb(116, 116, 116);
+}
